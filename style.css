@@ -1,0 +1,126 @@
+/* SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Inter", sans-serif;
+}
+
+.body-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+h1 {
+  font-size: 44px;
+  margin-left: 15px;
+  letter-spacing: -1px;
+}
+
+a {
+  font-size: 18px;
+  color: #003049;
+  text-decoration: none;
+}
+
+nav a:link,
+nav a:active {
+  color: #003049;
+}
+
+nav a:hover,
+nav a:visited {
+  color: #d62828;
+}
+
+img {
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 25px 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+h2 {
+  font-size: 36px;
+  letter-spacing: -1px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  align-items: center;
+  gap: 20px;
+}
+
+.travel-tips {
+  background-color: #bbb592;
+  border: 3px solid #d62828;
+  color: #003049;
+  padding: 30px 10px;
+}
+
+.travel-tips p {
+  font-weight: 700;
+}
+
+ol {
+  list-style: none;
+  margin-top: 20px;
+}
+
+ol li {
+  line-height: 1.5;
+  font-weight: 500;
+  margin: 40px;
+  font-size: 18px;
+}
+
+ol li:last-child {
+  margin-bottom: 20px;
+}
+
+/* #footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+} */
+
+#footer a {
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+#footer p {
+  font-size: 16px;
+}

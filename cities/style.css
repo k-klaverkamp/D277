@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.body-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+h1 {
+  font-size: 44px;
+  margin-left: 15px;
+  letter-spacing: -1px;
+}
+
+a {
+  font-size: 18px;
+  color: #003049;
+  text-decoration: none;
+}
+
+nav a:link,
+nav a:active,
+footer a:link,
+footer a:active {
+  color: #003049;
+}
+
+nav a:hover,
+nav a:visited,
+footer a:hover,
+footer a:visited {
+  color: #d62828;
+}
+
+.top-page-img {
+  width: 1200px;
+  height: 600px;
+  margin-bottom: 50px;
+}
+
+.phoenix-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+  margin-bottom: 35px;
+  align-items: center;
+}
+
+.phoenix-image {
+  width: 500px;
+  height: 370px;
+  margin-left: 35px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.tucson-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+  background-color: #bbb592;
+  padding: 15px;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.tucson-image {
+  width: 500px;
+  height: 370px;
+  margin-left: 30px;
+}
+
+.pinetop-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 35px;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.pinetop-image {
+  width: 300px;
+  margin-left: 35px;
+}
+
+h3 {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 300px;
+  font-size: 24px;
+}
+
+.table-aside-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 30px;
+  align-items: start;
+}
+
+.table {
+  /* background-color: #bbb592; */
+  padding: 10px;
+  margin-top: 50px;
+}
+
+td {
+  border: 1px solid #003049;
+  padding: 10px;
+}
+
+aside {
+  background-color: #bbb592;
+  padding: 15px;
+}
+
+aside span {
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+  margin: 10px 0 10px 50px;
+}
+
+/* Footer style & footer link style */
+
+#footer a {
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+#footer p {
+  font-size: 16px;
+}
