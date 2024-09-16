@@ -151,6 +151,7 @@ aside span {
   font-weight: 600;
   display: inline-block;
   margin: 10px 0 10px 50px;
+  text-decoration: underline;
 }
 
 /* Footer style & footer link style */
