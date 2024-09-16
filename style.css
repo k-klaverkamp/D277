@@ -19,6 +19,8 @@ body {
 .body-container {
   width: 1000px;
   margin: 0 auto;
+  border: 3px solid #003049;
+  padding: 0 10px 10px 10px;
 }
 
 .main-header {
@@ -29,7 +31,7 @@ body {
 
 .nav-link {
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 h1 {
@@ -42,6 +44,14 @@ a {
   font-size: 18px;
   color: #003049;
   text-decoration: none;
+  /* border-right: 1px solid black;
+  padding-right: 15px; */
+}
+
+nav a {
+  border-right: 1px solid #003049;
+  border-bottom: 1px solid #003049;
+  padding-right: 4px;
 }
 
 nav a:link,
@@ -91,6 +101,7 @@ p {
 
 .travel-tips p {
   font-weight: 700;
+  padding-left: 5px;
 }
 
 ol {

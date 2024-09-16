@@ -14,6 +14,8 @@ body {
 .body-container {
   width: 1200px;
   margin: 0 auto;
+  border: 3px solid #003049;
+  padding: 10px;
 }
 
 .main-header {
@@ -25,6 +27,12 @@ body {
 .nav-link {
   display: inline-block;
   margin-right: 30px;
+}
+
+nav a {
+  border-right: 1px solid #003049;
+  border-bottom: 1px solid #003049;
+  padding-right: 4px;
 }
 
 h1 {
@@ -54,9 +62,10 @@ footer a:visited {
 }
 
 .top-page-img {
-  width: 1200px;
+  width: 1160px;
   height: 600px;
   margin-bottom: 50px;
+  margin-left: 5px;
 }
 
 .phoenix-container {
