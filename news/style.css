@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.body-container {
+  width: 1200px;
+  margin: 0 auto;
+  border: 3px solid #003049;
+  padding: 10px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav a {
+  border-right: 1px solid #003049;
+  border-bottom: 1px solid #003049;
+  padding-right: 4px;
+}
+
+h1 {
+  font-size: 44px;
+  margin-left: 15px;
+  letter-spacing: -1px;
+}
+
+a {
+  font-size: 18px;
+  color: #003049;
+  text-decoration: none;
+}
+
+nav a:link,
+nav a:active,
+footer a:link,
+footer a:active {
+  color: #003049;
+}
+
+nav a:hover,
+nav a:visited,
+footer a:hover,
+footer a:visited {
+  color: #d62828;
+}
+
+.top-page-img {
+  width: 1160px;
+  height: 600px;
+  margin-bottom: 50px;
+  margin-left: 5px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+  text-decoration: underline;
+}
+
+section span {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+p,
+span {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.top-news-container {
+  display: grid;
+  grid-template-columns: 600px 400px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 10px solid #668392;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+#question {
+  width: 250px;
+}
+
+.button {
+  padding: 5px 10px 5px 10px;
+  margin-left: 150px;
+}
+
+.subscribe-form {
+  background-color: #bbb592;
+  border: 2px solid #d62828;
+  padding: 5px;
+}
+
+h4 {
+  margin-bottom: 10px;
+  padding-left: 120px;
+}
+
+h3 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+aside span {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.recent-news {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 35px;
+}
+
+.recent-news-content {
+  border-right: 1px solid #003049;
+  padding: 5px 25px 5px 5px;
+  margin-bottom: 35px;
+}
+
+.recent-news-content:last-child {
+  border-right: none;
+}
