@@ -102,7 +102,7 @@ span {
   margin-bottom: 15px;
 }
 .error {
-  color: red;
+  color: #d62828;
   font-size: 0.9em;
 }
 
@@ -123,7 +123,7 @@ span {
 
 h4 {
   margin-bottom: 10px;
-  padding-left: 120px;
+  padding-left: 90px;
 }
 
 h3 {
