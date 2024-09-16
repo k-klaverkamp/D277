@@ -124,6 +124,11 @@ p {
 h3 {
   font-size: 26px;
   margin-bottom: 20px;
+  letter-spacing: -1px;
+}
+
+.more-information p {
+  margin-bottom: 20px;
 }
 
 .section-aside-container {
@@ -135,11 +140,17 @@ h3 {
 span {
   font-size: 20px;
   font-weight: 600;
+  display: block;
+  margin: 0 50px 20px 100px;
 }
 
 aside {
   background-color: #bbb592;
   border: 2px solid #d62828;
+}
+
+aside p {
+  padding: 10px;
 }
 
 #footer a {
