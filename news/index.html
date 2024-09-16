@@ -3,7 +3,157 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
     <title>Arizona News</title>
   </head>
-  <body></body>
+  <body class="body-container">
+    <header class="main-header">
+      <h1>Arizona News</h1>
+      <nav class="nav">
+        <ul>
+          <li class="nav-link"><a href="/D277/index.html">Home</a></li>
+          <li class="nav-link"><a href="/D277/cities/index.html">Cities</a></li>
+          <li class="nav-link">
+            <a href="/D277/attractions/index.html">Attractions</a>
+          </li>
+          <li class="nav-link"><a href="/D277/events/index.html">Events</a></li>
+          <li class="nav-link"><a href="/D277/news/index.html">News</a></li>
+        </ul>
+      </nav>
+    </header>
+    <img
+      src="/D277/images/news-top.jpg"
+      alt="Three newspaper dispensers
+    together"
+      class="top-page-img"
+    />
+    <div class="top-news-container">
+      <section class="top-news-section">
+        <h2>Top News</h2>
+        <span>Abortion Ban officially lifted</span>
+        <p>
+          Arizona's Civil War-era on nearly all abortions have been repealed.
+          Governor Katie Hobbs signed the bill in May, stating that she will do
+          everything in her power to let women make their own decisions and that
+          politians do not belong in the doctor's office.
+        </p>
+      </section>
+      <aside class="subscribe-form">
+        <h4>Subscribe for more</h4>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              placeholder="Enter your first name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              placeholder="Enter your last name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="confirmEmail">Confirm Email Address:</label>
+            <input
+              type="email"
+              id="confirmEmail"
+              name="confirmEmail"
+              placeholder="Confirm your email address"
+              required
+            />
+            <span id="emailError" class="error"></span>
+          </div>
+          <div class="form-group">
+            <label for="question">Your Question:</label>
+            <textarea
+              id="question"
+              name="question"
+              placeholder="Enter your question here"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <button type="button" id="submitButton" class="button">
+              Submit
+            </button>
+          </div>
+        </form>
+      </aside>
+    </div>
+    <div class="aside-container">
+      <h3>Recent News</h3>
+      <aside class="recent-news">
+        <div class="recent-news-content">
+          <span>Pima County Ends Inmate Photo Policy After Court Ruling</span>
+          <p>
+            The Pima County Sheriff's Department has announced that it will no
+            longer post inmate booking photos online, following a recent court
+            ruling deeming the practice a violation of pretrial detainees’ right
+            to be presumed innocent. Effective immediately, the department has
+            removed the inmate-booking tab from its website and will cease
+            releasing booking photos in any format. This decision aligns Pima
+            County with other counties like Cochise, Yuma, and Gila, which have
+            also updated their policies in response to the new legal precedent
+            established by the U.S. Ninth Circuit Court of Appeals.
+          </p>
+        </div>
+        <div class="recent-news-content">
+          <span>The Fight For Equal Access In Elections</span>
+          <p>
+            Advocates from all over the States are joining together to give
+            those of all language backgrounds access to vote. A community
+            leader, Vida Lin, has fought to provide information through the
+            Asian Community Development Council providing QR codes that
+            translate the details of voting in their primary language in
+            California.
+          </p>
+        </div>
+        <div class="recent-news-content">
+          <span>One Of The Grand Canyon's Deadliest Years</span>
+          <p>
+            This year, at least 16 people have died at the Grand Canyon, with
+            causes ranging from boating accidents to drownings and falls. While
+            extreme weather and risky behavior have contributed to recent
+            fatalities, park officials emphasize that the August surge in deaths
+            is an anomaly, not the norm. Staff shortages and climate change's
+            impact on water levels are increasing challenges, especially as
+            visitors face hazards like flash floods and punishing heat.
+          </p>
+        </div>
+      </aside>
+    </div>
+    <footer id="footer">
+      <p class="copyright">
+        &copyAll images come from free images found on
+        <a href="https://unsplash.com" target="_blank">Unsplash</a>
+      </p>
+    </footer>
+    <script src="form-validation.js"></script>
+  </body>
 </html>
